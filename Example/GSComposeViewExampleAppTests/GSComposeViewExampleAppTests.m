@@ -1,6 +1,6 @@
 //
-//  GSComposeViewTests.m
-//  GSComposeViewTests
+//  GSComposeViewExampleAppTests.m
+//  GSComposeViewExampleAppTests
 //
 //  Created by Gard Sandholt on 21/03/14.
 //  Copyright (c) 2014 GaSa Media. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface GSComposeViewTests : XCTestCase
+@interface GSComposeViewExampleAppTests : XCTestCase
 
 @end
 
-@implementation GSComposeViewTests
+@implementation GSComposeViewExampleAppTests
 
 - (void)setUp
 {

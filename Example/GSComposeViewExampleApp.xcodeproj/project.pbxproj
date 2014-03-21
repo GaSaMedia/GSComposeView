@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C38FB57E18DC8723005C94F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38FB57D18DC8723005C94F0 /* Foundation.framework */; };
+		C38FB58018DC8723005C94F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38FB57F18DC8723005C94F0 /* CoreGraphics.framework */; };
+		C38FB58218DC8723005C94F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38FB58118DC8723005C94F0 /* UIKit.framework */; };
+		C38FB58818DC8723005C94F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C38FB58618DC8723005C94F0 /* InfoPlist.strings */; };
+		C38FB58A18DC8723005C94F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C38FB58918DC8723005C94F0 /* main.m */; };
+		C38FB58E18DC8723005C94F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C38FB58D18DC8723005C94F0 /* AppDelegate.m */; };
+		C38FB59118DC8723005C94F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38FB58F18DC8723005C94F0 /* Main.storyboard */; };
+		C38FB59418DC8723005C94F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38FB59318DC8723005C94F0 /* ViewController.m */; };
+		C38FB59618DC8723005C94F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38FB59518DC8723005C94F0 /* Images.xcassets */; };
+		C38FB59D18DC8723005C94F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38FB59C18DC8723005C94F0 /* XCTest.framework */; };
+		C38FB59E18DC8723005C94F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38FB57D18DC8723005C94F0 /* Foundation.framework */; };
+		C38FB59F18DC8723005C94F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38FB58118DC8723005C94F0 /* UIKit.framework */; };
+		C38FB5A718DC8723005C94F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C38FB5A518DC8723005C94F0 /* InfoPlist.strings */; };
+		C38FB5A918DC8723005C94F0 /* GSComposeViewExampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C38FB5A818DC8723005C94F0 /* GSComposeViewExampleAppTests.m */; };
+		C38FB5B518DC876D005C94F0 /* GSComposeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C38FB5B418DC876D005C94F0 /* GSComposeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C38FB5A018DC8723005C94F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38FB57218DC8723005C94F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38FB57918DC8723005C94F0;
+			remoteInfo = GSComposeViewExampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C38FB57A18DC8723005C94F0 /* GSComposeViewExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSComposeViewExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38FB57D18DC8723005C94F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C38FB57F18DC8723005C94F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C38FB58118DC8723005C94F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C38FB58518DC8723005C94F0 /* GSComposeViewExampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSComposeViewExampleApp-Info.plist"; sourceTree = "<group>"; };
+		C38FB58718DC8723005C94F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C38FB58918DC8723005C94F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C38FB58B18DC8723005C94F0 /* GSComposeViewExampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GSComposeViewExampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		C38FB58C18DC8723005C94F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C38FB58D18DC8723005C94F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C38FB59018DC8723005C94F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C38FB59218DC8723005C94F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C38FB59318DC8723005C94F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C38FB59518DC8723005C94F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C38FB59B18DC8723005C94F0 /* GSComposeViewExampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSComposeViewExampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38FB59C18DC8723005C94F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C38FB5A418DC8723005C94F0 /* GSComposeViewExampleAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSComposeViewExampleAppTests-Info.plist"; sourceTree = "<group>"; };
+		C38FB5A618DC8723005C94F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C38FB5A818DC8723005C94F0 /* GSComposeViewExampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSComposeViewExampleAppTests.m; sourceTree = "<group>"; };
+		C38FB5B318DC876D005C94F0 /* GSComposeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSComposeView.h; sourceTree = "<group>"; };
+		C38FB5B418DC876D005C94F0 /* GSComposeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSComposeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C38FB57718DC8723005C94F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38FB58018DC8723005C94F0 /* CoreGraphics.framework in Frameworks */,
+				C38FB58218DC8723005C94F0 /* UIKit.framework in Frameworks */,
+				C38FB57E18DC8723005C94F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38FB59818DC8723005C94F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38FB59D18DC8723005C94F0 /* XCTest.framework in Frameworks */,
+				C38FB59F18DC8723005C94F0 /* UIKit.framework in Frameworks */,
+				C38FB59E18DC8723005C94F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C38FB57118DC8723005C94F0 = {
+			isa = PBXGroup;
+			children = (
+				C38FB58318DC8723005C94F0 /* GSComposeViewExampleApp */,
+				C38FB5A218DC8723005C94F0 /* GSComposeViewExampleAppTests */,
+				C38FB57C18DC8723005C94F0 /* Frameworks */,
+				C38FB5B218DC872B005C94F0 /* Vendor */,
+				C38FB57B18DC8723005C94F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C38FB57B18DC8723005C94F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C38FB57A18DC8723005C94F0 /* GSComposeViewExampleApp.app */,
+				C38FB59B18DC8723005C94F0 /* GSComposeViewExampleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C38FB57C18DC8723005C94F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C38FB57D18DC8723005C94F0 /* Foundation.framework */,
+				C38FB57F18DC8723005C94F0 /* CoreGraphics.framework */,
+				C38FB58118DC8723005C94F0 /* UIKit.framework */,
+				C38FB59C18DC8723005C94F0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C38FB58318DC8723005C94F0 /* GSComposeViewExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				C38FB58C18DC8723005C94F0 /* AppDelegate.h */,
+				C38FB58D18DC8723005C94F0 /* AppDelegate.m */,
+				C38FB58F18DC8723005C94F0 /* Main.storyboard */,
+				C38FB59218DC8723005C94F0 /* ViewController.h */,
+				C38FB59318DC8723005C94F0 /* ViewController.m */,
+				C38FB59518DC8723005C94F0 /* Images.xcassets */,
+				C38FB58418DC8723005C94F0 /* Supporting Files */,
+			);
+			path = GSComposeViewExampleApp;
+			sourceTree = "<group>";
+		};
+		C38FB58418DC8723005C94F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C38FB58518DC8723005C94F0 /* GSComposeViewExampleApp-Info.plist */,
+				C38FB58618DC8723005C94F0 /* InfoPlist.strings */,
+				C38FB58918DC8723005C94F0 /* main.m */,
+				C38FB58B18DC8723005C94F0 /* GSComposeViewExampleApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C38FB5A218DC8723005C94F0 /* GSComposeViewExampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C38FB5A818DC8723005C94F0 /* GSComposeViewExampleAppTests.m */,
+				C38FB5A318DC8723005C94F0 /* Supporting Files */,
+			);
+			path = GSComposeViewExampleAppTests;
+			sourceTree = "<group>";
+		};
+		C38FB5A318DC8723005C94F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C38FB5A418DC8723005C94F0 /* GSComposeViewExampleAppTests-Info.plist */,
+				C38FB5A518DC8723005C94F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C38FB5B218DC872B005C94F0 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				C38FB5B318DC876D005C94F0 /* GSComposeView.h */,
+				C38FB5B418DC876D005C94F0 /* GSComposeView.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C38FB57918DC8723005C94F0 /* GSComposeViewExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38FB5AC18DC8723005C94F0 /* Build configuration list for PBXNativeTarget "GSComposeViewExampleApp" */;
+			buildPhases = (
+				C38FB57618DC8723005C94F0 /* Sources */,
+				C38FB57718DC8723005C94F0 /* Frameworks */,
+				C38FB57818DC8723005C94F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSComposeViewExampleApp;
+			productName = GSComposeViewExampleApp;
+			productReference = C38FB57A18DC8723005C94F0 /* GSComposeViewExampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C38FB59A18DC8723005C94F0 /* GSComposeViewExampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38FB5AF18DC8723005C94F0 /* Build configuration list for PBXNativeTarget "GSComposeViewExampleAppTests" */;
+			buildPhases = (
+				C38FB59718DC8723005C94F0 /* Sources */,
+				C38FB59818DC8723005C94F0 /* Frameworks */,
+				C38FB59918DC8723005C94F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38FB5A118DC8723005C94F0 /* PBXTargetDependency */,
+			);
+			name = GSComposeViewExampleAppTests;
+			productName = GSComposeViewExampleAppTests;
+			productReference = C38FB59B18DC8723005C94F0 /* GSComposeViewExampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C38FB57218DC8723005C94F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "GaSa Media";
+				TargetAttributes = {
+					C38FB59A18DC8723005C94F0 = {
+						TestTargetID = C38FB57918DC8723005C94F0;
+					};
+				};
+			};
+			buildConfigurationList = C38FB57518DC8723005C94F0 /* Build configuration list for PBXProject "GSComposeViewExampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C38FB57118DC8723005C94F0;
+			productRefGroup = C38FB57B18DC8723005C94F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C38FB57918DC8723005C94F0 /* GSComposeViewExampleApp */,
+				C38FB59A18DC8723005C94F0 /* GSComposeViewExampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C38FB57818DC8723005C94F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38FB59618DC8723005C94F0 /* Images.xcassets in Resources */,
+				C38FB58818DC8723005C94F0 /* InfoPlist.strings in Resources */,
+				C38FB59118DC8723005C94F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38FB59918DC8723005C94F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38FB5A718DC8723005C94F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C38FB57618DC8723005C94F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38FB59418DC8723005C94F0 /* ViewController.m in Sources */,
+				C38FB5B518DC876D005C94F0 /* GSComposeView.m in Sources */,
+				C38FB58E18DC8723005C94F0 /* AppDelegate.m in Sources */,
+				C38FB58A18DC8723005C94F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38FB59718DC8723005C94F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38FB5A918DC8723005C94F0 /* GSComposeViewExampleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C38FB5A118DC8723005C94F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38FB57918DC8723005C94F0 /* GSComposeViewExampleApp */;
+			targetProxy = C38FB5A018DC8723005C94F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C38FB58618DC8723005C94F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38FB58718DC8723005C94F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C38FB58F18DC8723005C94F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38FB59018DC8723005C94F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C38FB5A518DC8723005C94F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38FB5A618DC8723005C94F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C38FB5AA18DC8723005C94F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C38FB5AB18DC8723005C94F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C38FB5AD18DC8723005C94F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSComposeViewExampleApp/GSComposeViewExampleApp-Prefix.pch";
+				INFOPLIST_FILE = "GSComposeViewExampleApp/GSComposeViewExampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C38FB5AE18DC8723005C94F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSComposeViewExampleApp/GSComposeViewExampleApp-Prefix.pch";
+				INFOPLIST_FILE = "GSComposeViewExampleApp/GSComposeViewExampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C38FB5B018DC8723005C94F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GSComposeViewExampleApp.app/GSComposeViewExampleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSComposeViewExampleApp/GSComposeViewExampleApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GSComposeViewExampleAppTests/GSComposeViewExampleAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C38FB5B118DC8723005C94F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GSComposeViewExampleApp.app/GSComposeViewExampleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSComposeViewExampleApp/GSComposeViewExampleApp-Prefix.pch";
+				INFOPLIST_FILE = "GSComposeViewExampleAppTests/GSComposeViewExampleAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C38FB57518DC8723005C94F0 /* Build configuration list for PBXProject "GSComposeViewExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38FB5AA18DC8723005C94F0 /* Debug */,
+				C38FB5AB18DC8723005C94F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38FB5AC18DC8723005C94F0 /* Build configuration list for PBXNativeTarget "GSComposeViewExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38FB5AD18DC8723005C94F0 /* Debug */,
+				C38FB5AE18DC8723005C94F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C38FB5AF18DC8723005C94F0 /* Build configuration list for PBXNativeTarget "GSComposeViewExampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38FB5B018DC8723005C94F0 /* Debug */,
+				C38FB5B118DC8723005C94F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C38FB57218DC8723005C94F0 /* Project object */;
+}

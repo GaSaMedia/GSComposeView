@@ -8,14 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C38FB54918DC85E4005C94F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38FB54818DC85E4005C94F0 /* Foundation.framework */; };
-		C38FB54E18DC85E4005C94F0 /* GSComposeView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C38FB54D18DC85E4005C94F0 /* GSComposeView.h */; };
-		C38FB55018DC85E4005C94F0 /* GSComposeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C38FB54F18DC85E4005C94F0 /* GSComposeView.m */; };
 		C38FB55718DC85E4005C94F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38FB55618DC85E4005C94F0 /* XCTest.framework */; };
 		C38FB55818DC85E4005C94F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38FB54818DC85E4005C94F0 /* Foundation.framework */; };
 		C38FB55A18DC85E4005C94F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38FB55918DC85E4005C94F0 /* UIKit.framework */; };
 		C38FB55D18DC85E4005C94F0 /* libGSComposeView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C38FB54518DC85E4005C94F0 /* libGSComposeView.a */; };
-		C38FB56318DC85E4005C94F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C38FB56118DC85E4005C94F0 /* InfoPlist.strings */; };
-		C38FB56518DC85E4005C94F0 /* GSComposeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C38FB56418DC85E4005C94F0 /* GSComposeViewTests.m */; };
+		C38FB57018DC860B005C94F0 /* GSComposeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C38FB56F18DC860B005C94F0 /* GSComposeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +32,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				C38FB54E18DC85E4005C94F0 /* GSComposeView.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +41,11 @@
 		C38FB54518DC85E4005C94F0 /* libGSComposeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGSComposeView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38FB54818DC85E4005C94F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C38FB54C18DC85E4005C94F0 /* GSComposeView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GSComposeView-Prefix.pch"; sourceTree = "<group>"; };
-		C38FB54D18DC85E4005C94F0 /* GSComposeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSComposeView.h; sourceTree = "<group>"; };
-		C38FB54F18DC85E4005C94F0 /* GSComposeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSComposeView.m; sourceTree = "<group>"; };
 		C38FB55518DC85E4005C94F0 /* GSComposeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSComposeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38FB55618DC85E4005C94F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C38FB55918DC85E4005C94F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C38FB56018DC85E4005C94F0 /* GSComposeViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSComposeViewTests-Info.plist"; sourceTree = "<group>"; };
-		C38FB56218DC85E4005C94F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C38FB56418DC85E4005C94F0 /* GSComposeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSComposeViewTests.m; sourceTree = "<group>"; };
+		C38FB56E18DC860B005C94F0 /* GSComposeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSComposeView.h; sourceTree = "<group>"; };
+		C38FB56F18DC860B005C94F0 /* GSComposeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSComposeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				C38FB54A18DC85E4005C94F0 /* GSComposeView */,
-				C38FB55E18DC85E4005C94F0 /* GSComposeViewTests */,
 				C38FB54718DC85E4005C94F0 /* Frameworks */,
 				C38FB54618DC85E4005C94F0 /* Products */,
 			);
@@ -110,8 +102,8 @@
 		C38FB54A18DC85E4005C94F0 /* GSComposeView */ = {
 			isa = PBXGroup;
 			children = (
-				C38FB54D18DC85E4005C94F0 /* GSComposeView.h */,
-				C38FB54F18DC85E4005C94F0 /* GSComposeView.m */,
+				C38FB56E18DC860B005C94F0 /* GSComposeView.h */,
+				C38FB56F18DC860B005C94F0 /* GSComposeView.m */,
 				C38FB54B18DC85E4005C94F0 /* Supporting Files */,
 			);
 			path = GSComposeView;
@@ -121,24 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				C38FB54C18DC85E4005C94F0 /* GSComposeView-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C38FB55E18DC85E4005C94F0 /* GSComposeViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				C38FB56418DC85E4005C94F0 /* GSComposeViewTests.m */,
-				C38FB55F18DC85E4005C94F0 /* Supporting Files */,
-			);
-			path = GSComposeViewTests;
-			sourceTree = "<group>";
-		};
-		C38FB55F18DC85E4005C94F0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C38FB56018DC85E4005C94F0 /* GSComposeViewTests-Info.plist */,
-				C38FB56118DC85E4005C94F0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -213,7 +187,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38FB56318DC85E4005C94F0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38FB55018DC85E4005C94F0 /* GSComposeView.m in Sources */,
+				C38FB57018DC860B005C94F0 /* GSComposeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +205,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38FB56518DC85E4005C94F0 /* GSComposeViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,17 +217,6 @@
 			targetProxy = C38FB55B18DC85E4005C94F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C38FB56118DC85E4005C94F0 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C38FB56218DC85E4005C94F0 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C38FB56618DC85E4005C94F0 /* Debug */ = {
