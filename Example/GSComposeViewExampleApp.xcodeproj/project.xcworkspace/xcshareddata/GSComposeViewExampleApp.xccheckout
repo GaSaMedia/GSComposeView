@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>173079B0-A238-49DA-858D-727869F6E4EE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GSComposeViewExampleApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>359A3B81-D9A8-4C63-8BF8-CEA046C2EA90</key>
+		<string>ssh://github.com/GaSaMedia/GSComposeView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/GSComposeViewExampleApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>359A3B81-D9A8-4C63-8BF8-CEA046C2EA90</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/GaSaMedia/GSComposeView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>359A3B81-D9A8-4C63-8BF8-CEA046C2EA90</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>359A3B81-D9A8-4C63-8BF8-CEA046C2EA90</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GSComposeView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -27,6 +27,8 @@
 static CGFloat const kComposeViewWidth = 312.f;
 static CGFloat const kComposeViewHeight = 240.f;
 
+static CGFloat const kTextViewMargin = 5.f;
+
 @interface GSComposeView ()
 
 @property (copy, nonatomic) void (^completetionBlock)(NSString *text);
@@ -244,7 +246,7 @@ static CGFloat const kComposeViewHeight = 240.f;
 
 - (UITextView *)textInputView {
     if (!_textInputView) {
-        _textInputView = [[UITextView alloc] initWithFrame:CGRectMake(0.f, 44.f, kComposeViewWidth, kComposeViewHeight-44.f)];
+        _textInputView = [[UITextView alloc] initWithFrame:CGRectMake(0.f+kTextViewMargin, 42.f, kComposeViewWidth-(kTextViewMargin*2.f), kComposeViewHeight-(44.f+kTextViewMargin))];
         _textInputView.backgroundColor = [UIColor clearColor];
         _textInputView.textColor = [UIColor whiteColor];
         _textInputView.font = [UIFont systemFontOfSize:20.f];
