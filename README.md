@@ -14,7 +14,7 @@ GSComposeView is a simple compose view for getting text input from the user.
 
 ```ruby
 platform :ios
-pod "GSComposeView", :git => 'git@github.com:GaSaMedia/GSComposeView.git'
+pod "GSComposeView"
 ```
 
 ## Requirements
