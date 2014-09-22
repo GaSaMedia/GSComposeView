@@ -1,5 +1,7 @@
 # GSComposeView
 
+[![Build Status](https://travis-ci.org/GaSaMedia/GSComposeView.svg?branch=master)](https://travis-ci.org/GaSaMedia/GSComposeView)
+
 GSComposeView is a simple compose view for getting text input from the user.
 
 ![Screenshot1](https://dl.dropboxusercontent.com/u/7865025/github/GSComposeView/Screen%20Shot%202014-03-21%20at%2015.53.32.png)
