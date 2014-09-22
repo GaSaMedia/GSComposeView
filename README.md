@@ -1,6 +1,6 @@
 # GSComposeView
 
-[![Build Status](https://travis-ci.org/GaSaMedia/GSComposeView.svg?branch=master)](https://travis-ci.org/GaSaMedia/GSComposeView)
+[![Build Status](https://travis-ci.org/GaSaMedia/GSComposeView.svg?branch=master)](https://travis-ci.org/GaSaMedia/GSComposeView) [![Version](http://img.shields.io/cocoapods/v/GSComposeView.svg)](http://cocoadocs.org/docsets/GSComposeView)
 
 GSComposeView is a simple compose view for getting text input from the user.
 
